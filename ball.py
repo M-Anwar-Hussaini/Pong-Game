@@ -22,3 +22,5 @@ class Ball(Turtle):
     def bounce_y(self):
         self.y_move *= -1
 
+    def go_home(self):
+        self.home()
